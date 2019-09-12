@@ -1,8 +1,10 @@
-img {
-    max-width: 100%;
-    height: auto;
+body {
+    background: url('/architecture-buildings-calm-medium.jpg');
+    /* Specify the backgrounds size for image to appear*/
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-/* .jumbotron {
-    background: url('/architecture-buildings-calm-medium.jpg') center cover no-repeat;
-} */
+.col-sm-6, .col-md-4 {
+    float: left;
+}
